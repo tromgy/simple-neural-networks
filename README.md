@@ -32,3 +32,7 @@ The folder _html_ contains standalone interactive web pages for these notebooks.
 There are two sets of images, one is the canonical MNIST digits in **mnist.pkl.gz**, and the other is in the **non-MNIST-digits** directory.
 
 The latter ones are my own handwriting scanned and scaled to 28x28 pixel size. They are used for "real-life" tests in addition to the validation set from MNIST.
+
+## Running in VS Code
+
+VS Code can now run Jupyter notebooks. However I've found that markdown parsing of MathJax expressions has slight problems. I use a lot of exressions like this: `$L$th`, but in VS Code it doesn't work properly, as it seems to require a whitespace after the closing `$`. In Jupyter (distributed with Anaconda) and interactive HTML it renders properly, and adding the space doesn't look good there. So I decided not to change any markdown to appease VS Code.
