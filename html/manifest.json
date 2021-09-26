@@ -1,0 +1,15 @@
+{
+		"title": "Notebooks for M. Nielsen's Neural Networks and Deep Learning",
+		"author": "tromgy",
+		"collectionId": "nielsenNotebooks",
+		"pages": [
+			{
+				"title": "Network from Chapters 1 and 2",
+				"url": "./neural-network.html"
+			},
+			{
+				"title": "Same Network (matrix-based)",
+				"url": "one-fell-swoop.html"
+			}
+		]
+	}

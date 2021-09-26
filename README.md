@@ -23,9 +23,12 @@ There are two notebooks in this repository:
 
 However, I only saw about 10-20% performance increase with the fully matrix-based approach, not 100% as Michael Nielsen stated in the book. So if you find a problem with my implementation, make a pull request!
 
+## HTML
+
+The folder _html_ contains standalone interactive web pages for these notebooks. These pages use [SageCell](https://sagecell.sagemath.org/) for executing the code. They have been converted from the notebook versions in this folder using [Ingo Dahn's Notebook Player](https://dahn-research.eu/nbplayer). They can be also accessed on [this site](https://dahn-research.eu/nbsite/?path=https%3A%2F%2Fdahn-research.eu%2Fnielsen).
+
 ## Images
 
-There are two sets of images, one is the canonical MNIST digits in **mnist.pkl.gz**, and the other is in the **non-MNIST-digits** directory. 
+There are two sets of images, one is the canonical MNIST digits in **mnist.pkl.gz**, and the other is in the **non-MNIST-digits** directory.
 
 The latter ones are my own handwriting scanned and scaled to 28x28 pixel size. They are used for "real-life" tests in addition to the validation set from MNIST.
-
